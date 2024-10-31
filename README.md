@@ -1,6 +1,7 @@
 🚀 IoT Annihilator 🔥
 
 ⚠️ WARNING: This tool is powerful, relentless, and engineered to expose the soft underbelly of vulnerable IoT devices. Use it responsibly and with extreme caution. Unauthorized use is illegal and will get you in a lot more than trouble. This project was created for ethical research, penetration testing, and fortifying defenses against the inevitable cyber onslaught. If you misuse it, you’re on your own.
+
 ⚙️ About
 
 IoT Annihilator is an automated, multi-vector exploitation framework designed to systematically obliterate vulnerabilities in IoT devices. By leveraging an arsenal of pre-configured attacks using Kali Linux's most notorious tools, this script scours for outdated, poorly secured devices and tries every trick in the book. Think of it as a wake-up call for devices that have been left behind.
