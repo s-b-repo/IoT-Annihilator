@@ -21,6 +21,7 @@ IoT Annolitor doesn’t play nice. This tool is pure chaos for any IoT device du
     
 
 git clone https://github.com/YourUsername/IoT-Annolitor.git
+
 cd IoT-Annolitor
 
 Get your dependencies in order:
@@ -35,8 +36,8 @@ List your targets in ips.txt, then let it rip with proxychains if you want:
 
     python annolitor.py --proxy --proxy-file proxies.txt
 
-🛑 Warning: Use at Your Own Risk
+🛑 Warning: Use at Your Own Risk🛑
 
-IoT Annolitor doesn’t care about limits, but maybe you should. This tool is for educational purposes only—don’t be stupid.
+IoT Annolitor doesn’t care about limits, but maybe you should. This tool is for educational purposes and illegal reasons only—don’t be stupid.
 
 IoT Annolitor: Because some devices were made to be broken
