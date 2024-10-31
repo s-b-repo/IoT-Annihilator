@@ -1,6 +1,7 @@
 💀 IoT Annihilator: The Last Thing Your IoT Wants to See 💀
 
 IoT Annihilator doesn’t play nice. This tool is pure chaos for any IoT device dumb enough to be left unguarded. Scan, brute-force, and exploit every weak spot with the full force of Metasploit, Hydra, Nmap, and RouterSploit. If you’re looking for stealth and speed, IoT Annihilator has you covered.
+
 🔥 What This Beast Does
 
     Total Domination: Combines Nmap, Hydra, Metasploit, and RouterSploit to obliterate any IoT device left exposed.
