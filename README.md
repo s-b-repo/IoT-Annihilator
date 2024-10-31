@@ -20,7 +20,7 @@ IoT Annihilator doesn’t play nice. This tool is pure chaos for any IoT device 
 
     
 
-git clone https://github.com/YourUsername/IoT-Annihilator.git
+git clone https://github.com/s-b-repo/IoT-Annihilator.git
 
 cd IoT-Annihilator
 
